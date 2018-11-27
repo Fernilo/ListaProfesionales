@@ -1,0 +1,14 @@
+.errores{
+	width: 150px;
+	padding: 5px;
+	text-align: center;
+	background-color:red;
+	font-size:14px;
+	display: none;
+	position:absolute;
+	margin-top:-75px;
+	margin-left:235px;
+	border-radius: 10px;
+	color: #fff;
+	font-size: 15px;
+}

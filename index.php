@@ -18,7 +18,7 @@
 					<div class="form-group">
 						<label for="nombre">Nombre</label>
 						<input type="text" placeholder="Nombre" class="form-control" id="nombre" name="nombre">
-						<div class="errores" id="error1">Falta Nombjghjre</div>
+						<div class="errores" id="error1">Falta Nombre</div>
 					</div>
 					<div class="form-group">
 						<label for="apellido">Apellido</label>

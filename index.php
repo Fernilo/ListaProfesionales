@@ -16,17 +16,17 @@
 				<h2>Agregar Persona</h2>
 				<form action="" method="post" id="formulario">
 					<div class="form-group">
-						<label for="nombre">Nombrehfghfhghg</label>
+						<label for="nombre">Nombre</label>
 						<input type="text" placeholder="Nombre" class="form-control" id="nombre" name="nombre">
 						<div class="errores" id="error1">Falta Nombre</div>
 					</div>
 					<div class="form-group">
-						<label for="apellido">Apellidooooooooooooooooo</label>
+						<label for="apellido">Apellido</label>
 						<input type="text" placeholder="Apellido" class="form-control" id="apellido" name="apellido">
 						<div class="errores" id="error2">Falta Apellido</div>
 					</div>
 					<div class="form-group">
-						<label for="email">Emailggdfgdg</label>
+						<label for="email">Email</label>
 						<input type="text" placeholder="Email" class="form-control" id="email" name="email">
 						<div class="errores" id="error3">Falta Email Válido</div>
 					</div>

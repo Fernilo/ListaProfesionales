@@ -13,7 +13,7 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-4">
-				<h2>Agregar Personadgdf</h2>
+				<h2>Agregar Persona</h2>
 				<form action="" method="post" id="formulario">
 					<div class="form-group">
 						<label for="nombre">Nombre</label>

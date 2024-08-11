@@ -6,7 +6,6 @@ Este proyecto de profesionales con js , php y css
 ## Requisitos
 
 - [Docker](https://www.docker.com/)
-- [Docker Compose](https://docs.docker.com/compose/)
 
 ## Configuración
 

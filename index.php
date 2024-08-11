@@ -13,7 +13,7 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-4">
-				<h2>Agregar Persona</h2>
+				<h2>Agregar Persona Nueva</h2>
 				<form action="" method="post" id="formulario">
 					<div class="form-group">
 						<label for="nombre">Nombre</label>
@@ -124,7 +124,9 @@
 				alertify.error('Cancelado');
 			});
 		}
+		
 		function eliminar(id){
+			console.log(id)
 			cadena="id="+id;
 			$.ajax({
 				type:'post',
@@ -142,8 +144,5 @@
 			});
 		}
 	</script>
-
-
-
 </body>
 </html>

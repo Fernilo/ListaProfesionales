@@ -13,7 +13,7 @@ include("conexion.php");
 	</thead>
 	<tbody>
 		<?php 
-		$sql="SELECT * FROM persona WHERE 1=1";
+		$sql="SELECT * FROM personas WHERE 1=1";
 		$r=mysqli_query($db,$sql);
 		if($r){
 			while($rs=mysqli_fetch_array($r)){
@@ -24,7 +24,7 @@ include("conexion.php");
 					<td><?php echo $rs['apellido']; ?></td>
 					<td><?php echo $rs['correo']; ?></td>
 					<td><?php echo $rs['profesion']; ?></td>
-					<td><button class="btn btn-warning" onclick="preguntar(<?php echo $rs['idPersona']; ?>)">Eliminar</button></td>
+					<td><button class="btn btn-warning" onclick="preguntar(<?php echo $rs['id']; ?>)">Eliminar</button></td>
 				</tr>	
 		<?php
 			}

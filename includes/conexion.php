@@ -1,8 +1,8 @@
 <?php 
-	define('DB_PASS','');
-	define('DB_USER','root');
+	define('DB_PASS','password');
+	define('DB_USER','user');
 	define('DB_NAME','profesionales');
-	define('DB_HOST','localhost');
+	define('DB_HOST','127.0.0.1');
 
 	$db=mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME);
 
